@@ -150,6 +150,18 @@ input, select, textarea {
 		position: relative;
 		padding-bottom: 0;
 	}
+	.buy-button {
+		align-items: end;
+		display: flex;
+		justify-content: end;
+	}
+	.buy-flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 	
 
 /* Page */
