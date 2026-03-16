@@ -7,8 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -162,7 +160,7 @@ input, select, textarea {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	
+
 
 /* Page */
 
@@ -462,12 +460,10 @@ input, select, textarea {
 			h1.major:after {
 				bottom: -1.325rem;
 			}
-		
+
 		h1.abinetmajor {
 			margin: 0 0 .1rem 0;
 		}
-
-
 
 	h2 {
 		font-size: 1.75rem;
@@ -1138,10 +1134,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.main img {
+			.image.main img {
 				width: 100%;
 			}
-
 
 /* List */
 
@@ -2301,6 +2296,7 @@ input, select, textarea {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #f1b9b9 60%, #ffe4b4);
 				background-size: 128px 128px, auto;
 			}
+
 			.panel > *.color1 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
@@ -3363,7 +3359,7 @@ input, select, textarea {
 	}
 
 		.panel.banner .content {
-			padding: 3.5rem 3.5rem 2rem 3.5rem;
+			padding: 3.5rem 3.5rem 2rem 3.5rem ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3466,7 +3462,7 @@ input, select, textarea {
 			-webkit-flex-basis: auto;
 			-ms-flex-basis: auto;
 			flex-basis: auto;
-			height: 18rem;
+			height: 30rem;
 		}
 
 		.panel.banner.left {
@@ -3579,6 +3575,34 @@ input, select, textarea {
 			min-height: 30rem;
 		}
 
+		.panel.banner .image.abinetcustom img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: scale-down;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: auto;
+		}
+		
+		.panel.banner .image.abinetcustom.span-4-75 img {
+			width: 48rem;
+		}
+
+		.abinetaboutusimage{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			-moz-object-fit: cover;
+			-webkit-object-fit: cover;
+			-ms-object-fit: cover;
+			align-items: center;
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+		}
 	}
 
 /* Page Wrapper */
