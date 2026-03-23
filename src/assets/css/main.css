@@ -160,6 +160,19 @@ input, select, textarea {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.socialmediaicons {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-left: 20px;
+		gap: 20px;
+		text-decoration: none;
+	}
+	.socialmediaicons a:link, a:visited, a:hover, a:active {
+ 		text-decoration: none;
+		border-bottom: none;
+	}
+
 
 
 /* Page */
